@@ -7,16 +7,19 @@
       const accountId = accId || 1120758;
       console.log("Account-Id ->", accountId);
 
-      (function loadVwoScriptSync(id) {
-        document.write(
-          '<script src="https://dev.visualwebsiteoptimizer.com/lib/' +
-            id +
-            '.js" referrerpolicy="no-referrer-when-downgrade" id="vwoCode"><\\/script>'
-        );
-      })(accountId);
+      // (function loadVwoScriptSync(id) {
+      //   document.write(
+      //     '<script src="https://dev.visualwebsiteoptimizer.com/lib/' +
+      //       id +
+      //       '.js" referrerpolicy="no-referrer-when-downgrade" id="vwoCode"><\\/script>'
+      //   );
+      // })(accountId);
     </script> 
     <!-- Start VWO SmartCode --> 
 <!-- <script src="https://dev.visualwebsiteoptimizer.com/lib/4001560.js" referrerpolicy="no-referrer-when-downgrade" id="vwoCode"></script>  -->
+<!-- End VWO SmartCode -->
+	  <!-- Start VWO SmartCode --> 
+<script src="https://dev.visualwebsiteoptimizer.com/lib/1222802.js" referrerpolicy="no-referrer-when-downgrade" id="vwoCode"></script> 
 <!-- End VWO SmartCode -->
 	<script>
 	  document.addEventListener('abtasty_resetActionTracking',(e)=>{console.log(e, "abtasty_resetActionTracking")});
